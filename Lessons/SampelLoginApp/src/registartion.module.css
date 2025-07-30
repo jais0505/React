@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    background-color: #f2f4f7;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    
+}
+.regform{
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 360px;
+    height: 470px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.regheading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+.namediv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 50px;
+    background-color: #ffffff;
+}
+.emaildiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 52px;
+    background-color: #ffffff;
+}
+.passworddiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 23px;
+    background-color: #ffffff;
+}
+.contactdiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 40px;
+    background-color: #ffffff;
+}
+.addressdiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 40px;
+    background-color: #ffffff;
+}
+.genderdiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 50px;
+    margin-right: 51px;
+    background-color: #ffffff;
+}
+.radiobtn{
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+}
+.btndiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 20px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.label{
+   font-size: 16px; 
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 8px;
+   background-color: #ffffff;
+}
+.inpfield{
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;     
+    outline: none;
+    font-size: 16px;
+}
+.txtarea{
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;     
+    outline: none;
+    font-size: 16px;
+}
+.submitbtn{
+    background-color: #1877f2;
+    color: white;
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+}
+.resetbtn{
+    background-color: gray;
+    color: white;  
+    height: 35px;
+    width: 120px;
+    font-size: 16px; 
+    border-radius: 8px;
+    border: 0;
+}

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+.headbar{
+    width: 100%;
+    height: 163px;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    height: 53px;
+    background-color: #1755a7;
+    display: flex;
+    gap: 35px;
+}
+.logdiv{
+    /* background-color: greenyellow; */
+    width: 450px;
+    height: 163px;
+    display: flex;
+    margin-left: 85px;
+    gap: 20px;
+}
+.logo1{
+    height: 150px;
+    width: 135px;
+    margin-top: 5px;
+
+}
+.logoarea2{
+    margin-top: 8px;
+}
+.logo2{
+    width: 150px;
+    height: 50px;
+}
+.logotxt1{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color: rgb(6 88 142);
+
+}
+.logotxt2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    line-height: 1.5;
+    letter-spacing: .5;
+    color: #000;
+}
+
+.headbardiv2{
+    /* background-color: aquamarine; */
+    width: 500px;
+    height: 163px;
+    margin-left: auto;
+    margin-right: 28px;
+}
+.linkdiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.alink{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 17px;                         
+    font-weight: 600;                        
+    color: #000; 
+}
+.logobtndiv{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.mgulogo{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 15px;
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+}
+.aictelogo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    height: 60px;
+    width: 60px;
+}
+.admbtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 230px;
+    height: 61px;
+    background-color: rgb(234, 179, 8);
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.navbaritems{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbaritems1{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.imgdiv{
+    width: 100%;
+    height: 450px;
+    background-color: blue;
+}
+
+.headlinediv{
+    width: 100%;
+    height: 50px;
+    background-color: #1755a7; 
+    display: flex;
+    gap: 25px;
+    color: white;
+  
+}
+.headlineitems{
+    color:white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headlineitems1{
+    color:rgb(234, 179, 8);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+}
+.footer{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+.footerbottom{
+    width: 100%;
+    height: 93px;
+    background-color: #1755a7;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotterbottomtxt{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.footercenter{
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+}
+.footertop{
+    width: 100%;
+    height: 300px;
+    background-color: ;
+}
