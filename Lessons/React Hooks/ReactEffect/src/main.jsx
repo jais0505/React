@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import EffectApp from './EffectApp'
+import CounterApp from './CounterEffectApp'
+
 
 createRoot(document.getElementById('root')).render(
-  <EffectApp />
+  <CounterApp />
 )

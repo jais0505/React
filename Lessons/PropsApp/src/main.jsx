@@ -1,8 +1,0 @@
-
-import { createRoot } from 'react-dom/client'
-import AppPage from './App'
-
-
-createRoot(document.getElementById('root')).render(
-  <AppPage />
-)

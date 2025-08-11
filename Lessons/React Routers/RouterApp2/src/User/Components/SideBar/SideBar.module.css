@@ -1,0 +1,36 @@
+.sidebar_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.sidebar_title{
+    padding: 20px;
+    font-size: 22px;
+}
+.sidebar_items{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.custom_link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.sidebar_item1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sidebar_item2{
+    display: flex;
+    margin-top: 330px;
+}
+.item_icon{
+   color: white;
+   font-size: 22px;
+}

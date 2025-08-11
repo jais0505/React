@@ -1,0 +1,10 @@
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.name_div{
+    display: flex;
+}

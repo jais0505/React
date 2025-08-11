@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    /* display: flex; */
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(242, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter_container{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.counter_div{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_container{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: 	#6c757d;
+    color: white;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+}
+.counter_value_div{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}

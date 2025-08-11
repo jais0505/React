@@ -4,7 +4,6 @@ const Effect = () =>{
     
     useEffect(() => 
     {
-        // console.log("hai");
         alert("hai");
     },[])
     return(

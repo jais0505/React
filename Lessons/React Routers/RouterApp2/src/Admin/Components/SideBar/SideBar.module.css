@@ -1,0 +1,35 @@
+.sidebar_container{
+    width: 100%;
+    height: 109vh;
+    background-color: #00412E;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar_items{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar_title{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
+.custom_link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.sidebar_item1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sidebar_item_logout{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 300px;
+}
+.item_icon{
+    font-size: 20px;
+}

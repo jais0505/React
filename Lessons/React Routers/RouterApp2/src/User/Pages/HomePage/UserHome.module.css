@@ -1,0 +1,16 @@
+.main_container{
+    display: flex;
+}
+.sidebar_container{
+    width: 20%;
+    height: 100vh;
+}
+.navhero_container{
+    width: 80%;
+    height: 100vh;
+}
+.navbar_container{
+    width: 100%;
+    height: 50px;
+    /* background-color: #bfccdf; */
+}
