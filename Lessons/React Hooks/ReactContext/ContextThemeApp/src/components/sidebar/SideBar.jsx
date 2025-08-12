@@ -1,11 +1,13 @@
-import React from 'react'
 import styles from './SideBar.module.css'
 import { IoHome, IoSettings } from 'react-icons/io5'
 import { CgProfile } from 'react-icons/cg'
 import { IoIosLogOut } from 'react-icons/io'
+import { useContext } from 'react'
+import { ThemeContext } from '../../Manger'
 const SideBar = () => {
+    const {theme} = useContext(ThemeContext);
   return (
-    <div className={styles.sidebar_container}>
+    <div className={`${styles.sidebar_container} ${styles[theme]}`}>
         <div className={styles.sidebar_title}>Logo</div>
         <div className={styles.sidebar_items}>
             <div className={styles.item}>

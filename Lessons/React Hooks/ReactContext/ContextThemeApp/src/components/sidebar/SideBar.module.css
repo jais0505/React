@@ -1,7 +1,14 @@
 .sidebar_container{
     width: 100%;
     height: 100vh;
+}
+.light{
     background-color: #C0C8CA;
+    color: black;
+}
+.dark{
+    background-color: #1A2D42;
+    color: #D4D8DD;
 }
 .sidebar_title{
     padding: 15px;

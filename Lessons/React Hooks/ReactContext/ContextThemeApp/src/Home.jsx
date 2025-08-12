@@ -6,10 +6,11 @@ import styles from './Home.module.css'
 import { ThemeContext } from './Manger'
 
 const Homepage = () =>{
-    const [theme,setTheme] = useState("light");
+    const [theme, setTheme] = useState('light');
     return(
-       <ThemeContext.Provider value = {{theme,setTheme}}>
-         <div className={styles.home_container}>
+
+         <ThemeContext.Provider value = {{theme,setTheme}}>
+            <div className={styles.home_container}>
             <div className={styles.left_container}>
                 <SideBar />
             </div>
@@ -18,7 +19,7 @@ const Homepage = () =>{
                 <Hero />
             </div>
          </div>
-       </ThemeContext.Provider>
+         </ThemeContext.Provider>
     )
 }
 
